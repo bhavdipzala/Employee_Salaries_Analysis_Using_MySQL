@@ -1,5 +1,1 @@
-# SF_Employee_Salaries.SQL
-ghgh
-
-
-#ddd
+# San Francisco City Employee Salaries Analysis Using MySQL
