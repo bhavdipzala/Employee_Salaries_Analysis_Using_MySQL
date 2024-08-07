@@ -1,21 +1,22 @@
 # Salary Analysis of Employees in San Francisco City Using MySQL
 
-### Overview
-The Repository contains an SQL project based on a dataset of employees' salaries in San Francisco City. The dataset, sourced from Kaggle, includes salary information for over 149,000 employees and features the following columns:
-* **Id**: Unique identifier for each employee
-* **EmployeeName**: Name of the employee
-* **JobTitle**: Title of the employee's job
-* **BasePay**: Base salary of the employee
-* **OvertimePay**: Overtime pay of the employee
-* **OtherPay**: Other forms of compensation
-* **Benefits**: Employee benefits
-* **TotalPay**: Total compensation (BasePay + OvertimePay + OtherPay)
-* **TotalPayBenefits**: Total compensation including benefits
-* **Year**: Year of salary data
+### Overview and Objective
+The project involves writing an SQL script to perform various SQL queries using MySQL to analyze and gain insights from a dataset containing around 149,000 employees' salaries data in San Francisco City. The dataset was obtained from the Kaggle: [SF_Salaries](https://www.kaggle.com/datasets/kaggle/sf-salaries) site and can be accessed from the [Dataset.csv](docs/dataset.csv) file.
+The analysis addresses a range of problem statements outlined [below](#Problem-Statements-and-Queries-Addressed), aimed at understanding employee compensation, its distribution, and various job titles.
 
 
-### Objective
-The primary objective of this project is to perform various SQL queries to analyze and gain insights from the salary dataset. The analysis was carried out using MySQL and addresses a range of problem statements outlined below, aimed at understanding employee compensation, its distribution, and various job titles.
+### Dataset Description
+The dataset includes the following columns:
+- `Id` Unique identifier for each employee
+- `EmployeeName`
+- `JobTitle`
+- `BasePay` Base Salary
+- `OvertimePay`
+- `OtherPay` Other forms of compensation
+- `Benefits` Employee benefits
+- `TotalPay` Total compensation (BasePay + OvertimePay + OtherPay)
+- `TotalPayBenefits` Total compensation including benefits
+- `Year` Year of salary data
 
 
 ### Problem Statements and Queries Addressed
@@ -37,8 +38,3 @@ The primary objective of this project is to perform various SQL queries to analy
 16.	Update the base pay of all Managers with the job title containing 'Manager' by increasing it by 10%.
 17.	i.  Count the number of employees who have zero overtime pay.
     ii. Delete the data of all employees who have zero Overtime Pay.
-
-
-### Dataset Source
-Kaggle: [SF Salaries](https://www.kaggle.com/datasets/kaggle/sf-salaries)
-
