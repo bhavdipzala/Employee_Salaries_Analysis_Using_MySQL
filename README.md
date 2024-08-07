@@ -7,16 +7,16 @@ The analysis addresses a range of problem statements outlined [below](#Problem-S
 
 ### Dataset Description
 The dataset includes the following columns:
-- `Id`: Unique identifier for each employee
+- `Id:` Unique identifier for each employee
 - `EmployeeName`
 - `JobTitle`
-- `BasePay` Base Salary
+- `BasePay:` Base Salary
 - `OvertimePay`
-- `OtherPay` Other forms of compensation
-- `Benefits` Employee benefits
-- `TotalPay` Total compensation (BasePay + OvertimePay + OtherPay)
-- `TotalPayBenefits` Total compensation including benefits
-- `Year` Year of salary data
+- `OtherPay:` Other forms of compensation
+- `Benefits:` Employee benefits
+- `TotalPay:` Total compensation (BasePay + OvertimePay + OtherPay)
+- `TotalPayBenefits:` Total compensation including benefits
+- `Year:` Year of salary data
 
 
 ### Problem Statements and Queries Addressed
