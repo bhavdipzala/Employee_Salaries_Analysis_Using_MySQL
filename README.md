@@ -2,6 +2,7 @@
 
 ### Overview and Objective
 The project involves writing an SQL script to perform various SQL queries using MySQL to analyze and gain insights from a dataset containing around 149,000 employees' salaries data in San Francisco City. The dataset was obtained from the Kaggle: [SF_Salaries](https://www.kaggle.com/datasets/kaggle/sf-salaries) site and can be accessed from the [Dataset.csv](Dataset.csv) file.
+
 The analysis addresses a range of problem statements outlined [below](#Problem-Statements-and-Queries-Addressed), aimed at understanding employee compensation, its distribution, and various job titles.
 
 
