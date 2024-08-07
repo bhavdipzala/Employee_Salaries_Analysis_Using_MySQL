@@ -7,7 +7,7 @@ The analysis addresses a range of problem statements outlined [below](#Problem-S
 
 ### Dataset Description
 The dataset includes the following columns:
-- `Id` Unique identifier for each employee
+- `Id`: Unique identifier for each employee
 - `EmployeeName`
 - `JobTitle`
 - `BasePay` Base Salary
